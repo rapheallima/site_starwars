@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand section-title m-0 fs-2">Star Wars</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o Site</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-camera-reels"></i>
+                            Novidades</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#galeria" class="nav-link">
+                            <i class="bi bi-camera"></i>
+                            Galeria</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!----------------------------------------SOBRE------------------------------>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2500">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png"
+                            alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://t.ctcdn.com.br/OVxVMLxv7UH5lOEB3X9E4LgZ75c=/1200x675/smart/i447716.jpeg"
+                            alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.revistagq.com/photos/604b2f499fc97c95e82c1c14/16:9/w_2560%2Cc_limit/2101913.jpg"
+                            alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://s3.wasabisys.com/instax/74/instax/2023/04/star-wars-1680799242.jpg"
+                                class="d-block w-100 rounded" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Darth <span class="text-color">Vader</span></h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam id
+                                consequuntur earum mollitia iste, odit, facilis, possimus sint aliquam consectetur
+                                officiis!
+                                Dolorum deleniti quidem vero autem. Aspernatur, reprehenderit sequi.
+                            </p>
+                            <h3 class="section-title">Anakin <span class="text-color">Skywalker</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vero sunt quaerat
+                                obcaecati
+                                minus assumenda magnam beatae sapiente aliquam voluptas nobis fugiat, alias blanditiis
+                                animi
+                                incidunt, ab aperiam culpa placeat?
+                            </p>
+                            <ul>
+                                <li><img src="src/images/1_YhFjWyuoGnMIGGyttdICBg.jpg" alt=""></li>
+                                <li><img src="src/images/Anakin_Skywalker.webp" alt=""></li>
+                                <li><img src="src/images/Anakin_Skywalker_RotS.webp" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----------------------------------------EVENTOS------------------------------>
+
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Novidades <span class="text-color">Quentes</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="https://sm.ign.com/ign_br/news/s/star-wars-/star-wars-celebration-2023-everything-announced-at-lucasfilm_y99h.jpg"
+                            alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-color fs-4">
+                            <i class="bi bi-emoji-sunglasses"></i>
+                            Star-Wars
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, cupiditate eum
+                            consequatur laboriosam inventore cumque autem repellat expedita minima quam vero facilis
+                            adipisci nostrum, et iste laborum deleniti nesciunt veniam.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="https://i0.wp.com/geekpopnews.com.br/wp-content/uploads/2023/04/star-wars-capa.jpg?resize=1200%2C640&ssl=1"
+                            alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-color fs-4">
+                            <i class="bi bi-emoji-sunglasses"></i>
+                            Star-Wars
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, cupiditate eum
+                            consequatur laboriosam inventore cumque autem repellat expedita minima quam vero facilis
+                            adipisci nostrum, et iste laborum deleniti nesciunt veniam.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <img src="https://www.fayerwayer.com/resizer/hxCyEr0LmVlAJmWM_yzQMG8xfAA=/800x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/AWVUUVYY55HE7MXHELTYSYU54A.jpg"
+                            alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-color fs-4">
+                            <i class="bi bi-emoji-sunglasses"></i>
+                            Star-Wars
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, cupiditate eum
+                            consequatur laboriosam inventore cumque autem repellat expedita minima quam vero facilis
+                            adipisci nostrum, et iste laborum deleniti nesciunt veniam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----------------------------------------GALERIA------------------------------>
+
+        <section id="galeria" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossa <span class="text-color">Galeria</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pagina1"
+                                class="fw-bold text-start nav-link text-color active">Página - 1</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pagina2"
+                                class="fw-bold text-start nav-link text-color">Página - 2</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pagina3"
+                                class="fw-bold text-start nav-link text-color">Página - 3</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pagina4"
+                                class="fw-bold text-start nav-link text-color">Página - 4</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pagina5"
+                                class="fw-bold text-start nav-link text-color">Página - 5</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="pagina1">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100"
+                                            src="src/images/10-melhores-personagens-de-Star-Wars-da-Disney-1024x512.webp"
+                                            alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="src/images/408904.webp" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pagina2">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100"
+                                            src="src/images/5-star-wars-movies-and-shows-in-chronological-order.avif"
+                                            alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="src/images/5690886.webp" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pagina3">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100"
+                                            src="src/images/909563-star-wars-outlaws-le-jeu-signe-ubisoft-et-lucasfilm-games-se-montre-dans-une-bande-annonce.jpg"
+                                            alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100"
+                                            src="src/images/capture-decran-2020-03-31-a-18-12-46.webp" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="d-block w-100" src="src/images/i727746.webp" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pagina4">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100"
+                                            src="src/images/obi-wan-kenobi-darth-vader-and-din-djarin.avif" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="src/images/star-wars-capa.webp" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100"
+                                            src="src/images/the-bad-batch-is-here-article-feature_db7df1a7.jpeg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="src/images/s-l400.jpg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pagina5">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"
+                                            src="src/images/star-wars-groupe-first-order-i134666.jpg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100"
+                                            src="src/images/star-wars-the-empire-strikes-back-collectors-edition-poster-21-x-32-posters-prints-visual-artwork-536_535x.webp"
+                                            alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="src/images/Star-Wars.webp" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="src/images/image.jpg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Star-Wars</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----------------------------------------CONTATOS------------------------------>
+
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-color">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-color">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-color">Seu
+                                    e-mail<e-mail></e-mail></label>
+                                <input type="email" id="email" class="form-control" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-color">Seu telefone
+                                    (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-color">Sua mensagem</label>
+                                <textarea class="form-control" required id="mensagem" name="msg"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-color">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="">
+                                        <i class="bi bi-facebook text-color"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="">
+                                        <i class="bi bi-instagram text-color"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="">
+                                        <i class="bi bi-whatsapp text-color"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-color">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Teste Exemplo n° 145, Bairro Bootstrap - São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/jquery.mask.min.js"></script>
+    <script src="JS/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

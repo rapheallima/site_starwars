@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: #313131;
+
+    textarea {
+        resize: none;
+    }
+
+    .tab-pane {
+
+        img {
+            max-width: 450px;
+            height: 350px;
+            width: 100%;
+        }
+    }
+
+    .navbar {
+        background-color: #313131;
+    }
+
+    .navbar-toggler {
+        background-color: #93989a;
+    }
+
+    .carousel-inner img {
+        width: 1920px;
+        height: 860px;
+    }
+
+    .section-title {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .text-color {
+        color: #a40c0c;
+    }
+
+    .nav-cardapio .nav-link.active,
+    #contato button {
+        background-color: #93989a;
+        color: #313131;
+    }
+
+    .nav-cardapio .nav-link:hover {
+        color: #fff;
+    }
+
+    .social-links li {
+        list-style: none;
+        display: inline;
+    }
+
+    .social-links a {
+        text-decoration: none;
+    }
+
+    #cabecalho .nav .nav-link.active {
+        background-color: #93989a;
+        color: #fff;
+    }
+
+    #cabecalho .nav .nav-link,
+    .navbar-brand,
+    .navbar-brand:hover,
+    .nav-cardapio .nav-link.active:hover {
+        color: #fff;
+    }
+
+    #sobre,
+    #galeria {
+        background-color: #93989a;
+
+        ul {
+            margin-top: 44px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 24px;
+
+            li {
+                list-style: none;
+
+                img {
+                    max-width: 190px;
+                    height: 190px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    #sobre {
+
+        .container {
+            padding-bottom: -100px;
+            margin-bottom: -100px;
+        }
+    }
+
+    #eventos {
+        background-color: #313131;
+        color: #93989a;
+
+        .container {
+            margin-top: -150px;
+        }
+
+        img {
+            height: 400px;
+        }
+    }
+
+    #galeria {
+        margin-top: 25px;
+    }
+
+    #pagina5 img {
+        padding-top: 15px;
+    }
+
+    #galeria {
+        margin-top: 60px;
+    }
+
+    #eventos {
+        margin-top: 150px;
+    }
+
+    #sobre ul {
+        margin-bottom: 150px;
+    }
+
+    #contato {
+        background-color: #313131;
+        color: #93989a;
+    }
+
+    @media (max-width: 768px) {
+
+        .carousel-item img {
+            height: 280px;
+            max-width: 387px;
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .carousel-item img {
+            height: 580px;
+            max-width: 1087px;
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .tab-pane {
+
+            img {
+                max-width: 450px;
+                height: 350px;
+                width: 100%;
+            }
+        }
+    }
+
+    @media (max-width: 990px) {
+
+        .tab-pane img,
+        h5,
+        p {
+            margin-left: 0px;
+        }
+
+        #contato {
+            margin-top: 35px;
+        }
+    }
+}
